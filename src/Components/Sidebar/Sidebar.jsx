@@ -14,8 +14,8 @@ const sections = [
   { name: "العلاقات العامة", icon: <Users className="section-icon" /> },
   { name: "التدريب", icon: <Users className="section-icon" /> },
 ];
-
-function Sidebar() {
+  
+function Sidebar() {   
   const [isOpen, setIsOpen] = useState(true);
   const [activeIndex, setActiveIndex] = useState(null);
 
